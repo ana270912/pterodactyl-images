@@ -7,24 +7,24 @@ This fork is maintained by [**DonPedroTV**](https://github.com/DonPedroTV) as a 
 
 ## 📋 Table of Contents
 
-- [Pelican/Pterodactyl/WISP Docker Images](#pelicanpterodactylwisp-docker-images)
-- [How to Add Image to Your Egg](#how-to-add-image-to-your-egg)
-- [Supported Platforms](#supported-platforms)
-- [Java Images](#java-images)
-  - [☕ Java Amazon Corretto [AMD64/ARM64]](#java-amazon-corretto-amd64arm64)
-  - [☕ Java Azul Zulu [AMD64/ARM64]](#java-azul-zulu-amd64arm64)
-  - [☕ Java Dragonwell [AMD64/ARM64]](#java-dragonwell-amd64arm64)
-  - [☕ Java Eclipse Temurin [AMD64/ARM64]](#java-eclipse-temurin-amd64arm64)
-  - [☕ Java GraalVM [AMD64/ARM64]](#java-graalvm-amd64arm64)
-  - [☕ Java Liberica [AMD64/ARM64]](#java-liberica-amd64arm64)
-  - [☕ Java OpenJ9 [AMD64]](#java-openj9-amd64)
-  - [☕ Java Shenandoah [AMD64/ARM64]](#java-shenandoah-amd64arm64)
-- [🟢 Node.js [AMD64/ARM64]](#nodejs-amd64arm64)
-- [🐍 Python [AMD64/ARM64]](#python-amd64arm64)
+- [🐳 Pelican/Pterodactyl/WISP Docker Images](#pelicanpterodactylwisp-docker-images)
+- [📖 How to Add Image to Your Egg](#how-to-add-image-to-your-egg)
+- [👾 Supported Platforms](#supported-platforms)
+- [☕ Java Images](#java-images)
+  - [☕ Java Amazon Corretto (AMD64/ARM64)](#java-amazon-corretto-amd64arm64)
+  - [☕ Java Eclipse Temurin (AMD64/ARM64)](#java-eclipse-temurin-amd64arm64)
+  - [☕ Java Azul Zulu (AMD64/ARM64)](#java-azul-zulu-amd64arm64)
+  - [☕ Java GraalVM (AMD64/ARM64)](#java-graalvm-amd64arm64)
+  - [☕ Java Dragonwell (AMD64/ARM64)](#java-dragonwell-amd64arm64)
+  - [☕ Java Liberica (AMD64/ARM64)](#java-liberica-amd64arm64)
+  - [☕ Java OpenJ9 (AMD64)](#java-openj9-amd64)
+  - [☕ Java Shenandoah (AMD64/ARM64)](#java-shenandoah-amd64arm64)
+- [🟢 Node.js (AMD64/ARM64)](#nodejs-amd64arm64)
+- [🐍 Python (AMD64/ARM64)](#python-amd64arm64)
 - [🎮 Game Specific](#game-specific)
-  - [🔧 Sourcemod [AMD64]](#sourcemod-amd64)
+  - [🔧 Sourcemod (AMD64)](#sourcemod-amd64)
 
-## 🐳 Pelican/Pterodactyl/WISP Docker Images
+## Pelican/Pterodactyl/WISP Docker Images
 
 Docker images that can be used with the **Pelican/Pterodactyl/WISP Game Panel**. You can request more images by [opening a new issue](https://github.com/DonPedroTV/pterodactyl-images/issues/new). These are mostly created for personal use.
 
@@ -33,7 +33,7 @@ Docker images that can be used with the **Pelican/Pterodactyl/WISP Game Panel**.
 > - [Matthewpi](https://github.com/matthewpi/images)
 > - [Yolks](https://github.com/pterodactyl/yolks) repositories.
 
-## 📖 How to Add Image to Your Egg
+## How to Add Image to Your Egg
 
 Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) from the [available list](#supported-platforms) into the **Docker Images** section.
 
@@ -43,21 +43,23 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
 
 | Image                                                                                                  | Supported Platforms |
 | ------------------------------------------------------------------------------------------------------ | ------------------- |
-| [☕ Java Amazon Corretto](https://github.com/DonPedroTV/pterodactyl-images#java-amazon-corretto-amd64arm64) | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) ![ARM64](https://img.shields.io/badge/ARM64-Supported-green) |
-| [☕ Java Azul Zulu](https://github.com/DonPedroTV/pterodactyl-images#java-azul-zulu-amd64arm64)             | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) ![ARM64](https://img.shields.io/badge/ARM64-Supported-green) |
-| [☕ Java Dragonwell](https://github.com/DonPedroTV/pterodactyl-images#java-dragonwell-amd64arm64)           | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) ![ARM64](https://img.shields.io/badge/ARM64-Supported-green) |
-| [☕ Java Eclipse Temurin](https://github.com/DonPedroTV/pterodactyl-images#java-eclipse-temurin-amd64arm64) | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) ![ARM64](https://img.shields.io/badge/ARM64-Supported-green) |
-| [☕ Java GraalVM](https://github.com/DonPedroTV/pterodactyl-images#java-graalvm-amd64arm64)                 | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) ![ARM64](https://img.shields.io/badge/ARM64-Supported-green) |
-| [☕ Java Liberica](https://github.com/DonPedroTV/pterodactyl-images#java-liberica-amd64arm64)               | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) ![ARM64](https://img.shields.io/badge/ARM64-Supported-green) |
-| [☕ Java OpenJ9](https://github.com/DonPedroTV/pterodactyl-images#java-openj9-amd64)                        | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) |
-| [☕ Java Shenandoah](https://github.com/DonPedroTV/pterodactyl-images#java-shenandoah-amd64arm64)           | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) ![ARM64](https://img.shields.io/badge/ARM64-Supported-green) |
-| [🟢 Node.js](https://github.com/DonPedroTV/pterodactyl-images#nodejs-amd64arm64)                            | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) ![ARM64](https://img.shields.io/badge/ARM64-Supported-green) |
-| [🐍 Python](https://github.com/DonPedroTV/pterodactyl-images#python-amd64arm64)                             | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) ![ARM64](https://img.shields.io/badge/ARM64-Supported-green) |
-| [🔧 Sourcemod](https://github.com/DonPedroTV/pterodactyl-images#sourcemod-amd64)                            | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) |
+| [☕ Java Amazon Corretto (AMD64/ARM64)](#java-amazon-corretto-amd64arm64) | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) ![ARM64](https://img.shields.io/badge/ARM64-Supported-green) |
+| [☕ Java Azul Zulu (AMD64/ARM64)](#java-azul-zulu-amd64arm64)             | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) ![ARM64](https://img.shields.io/badge/ARM64-Supported-green) |
+| [☕ Java Dragonwell (AMD64/ARM64)](#java-dragonwell-amd64arm64)           | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) ![ARM64](https://img.shields.io/badge/ARM64-Supported-green) |
+| [☕ Java Eclipse Temurin (AMD64/ARM64)](#java-eclipse-temurin-amd64arm64) | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) ![ARM64](https://img.shields.io/badge/ARM64-Supported-green) |
+| [☕ Java GraalVM (AMD64/ARM64)](#java-graalvm-amd64arm64)                 | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) ![ARM64](https://img.shields.io/badge/ARM64-Supported-green) |
+| [☕ Java Liberica (AMD64/ARM64)](#java-liberica-amd64arm64)               | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) ![ARM64](https://img.shields.io/badge/ARM64-Supported-green) |
+| [☕ Java OpenJ9 (AMD64)](#java-openj9-amd64)                        | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) |
+| [☕ Java Shenandoah (AMD64/ARM64)](#java-shenandoah-amd64arm64)           | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) ![ARM64](https://img.shields.io/badge/ARM64-Supported-green) |
+| [🟢 Node.js (AMD64/ARM64)](#nodejs-amd64arm64)                            | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) ![ARM64](https://img.shields.io/badge/ARM64-Supported-green) |
+| [🐍 Python (AMD64/ARM64)](#python-amd64arm64)                             | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) ![ARM64](https://img.shields.io/badge/ARM64-Supported-green) |
+| [🔧 Sourcemod (AMD64)](#sourcemod-amd64)                            | ![AMD64](https://img.shields.io/badge/AMD64-Supported-green) |
 
 ## Java Images
 
-### ☕ Java Amazon Corretto [AMD64/ARM64]
+> **Note**: The first four Java distributions (Amazon Corretto, Eclipse Temurin, Azul Zulu, and GraalVM) are my personal preferences for most use cases. Additionally, many users consider Azul Zulu to be one of the most performant Java distributions available.
+
+### Java Amazon Corretto (AMD64/ARM64)
 
 | Version | Image Tag |
 |---------|-----------|
@@ -69,7 +71,21 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
 | Java 21 | `ghcr.io/donpedrotv/pterodactyl-images:java_21_corretto` |
 | Java 25 | `ghcr.io/donpedrotv/pterodactyl-images:java_25_corretto` |
 
-### ☕ Java Azul Zulu [AMD64/ARM64]
+### Java Eclipse Temurin (AMD64/ARM64)
+
+| Version | Image Tag |
+|---------|-----------|
+| Java 8 | `ghcr.io/donpedrotv/pterodactyl-images:java_8` |
+| Java 11 | `ghcr.io/donpedrotv/pterodactyl-images:java_11` |
+| Java 16 | `ghcr.io/donpedrotv/pterodactyl-images:java_16` |
+| Java 17 | `ghcr.io/donpedrotv/pterodactyl-images:java_17` |
+| Java 18 | `ghcr.io/donpedrotv/pterodactyl-images:java_18` |
+| Java 19 | `ghcr.io/donpedrotv/pterodactyl-images:java_19` |
+| Java 20 | `ghcr.io/donpedrotv/pterodactyl-images:java_20` |
+| Java 21 | `ghcr.io/donpedrotv/pterodactyl-images:java_21` |
+| Java 22 | `ghcr.io/donpedrotv/pterodactyl-images:java_22` |
+
+### Java Azul Zulu (AMD64/ARM64)
 
 | Version | Image Tag |
 |---------|-----------|
@@ -85,30 +101,7 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
 | Java 24 | `ghcr.io/donpedrotv/pterodactyl-images:java_24_zulu` |
 | Java 25 (LTS) | `ghcr.io/donpedrotv/pterodactyl-images:java_25_zulu` |
 
-### ☕ Java Dragonwell [AMD64/ARM64]
-
-| Version | Image Tag |
-|---------|-----------|
-| Java 8 | `ghcr.io/donpedrotv/pterodactyl-images:java_8_dragonwell` |
-| Java 11 | `ghcr.io/donpedrotv/pterodactyl-images:java_11_dragonwell` |
-| Java 17 | `ghcr.io/donpedrotv/pterodactyl-images:java_17_dragonwell` |
-| Java 21 | `ghcr.io/donpedrotv/pterodactyl-images:java_21_dragonwell` |
-
-### ☕ Java Eclipse Temurin [AMD64/ARM64]
-
-| Version | Image Tag |
-|---------|-----------|
-| Java 8 | `ghcr.io/donpedrotv/pterodactyl-images:java_8` |
-| Java 11 | `ghcr.io/donpedrotv/pterodactyl-images:java_11` |
-| Java 16 | `ghcr.io/donpedrotv/pterodactyl-images:java_16` |
-| Java 17 | `ghcr.io/donpedrotv/pterodactyl-images:java_17` |
-| Java 18 | `ghcr.io/donpedrotv/pterodactyl-images:java_18` |
-| Java 19 | `ghcr.io/donpedrotv/pterodactyl-images:java_19` |
-| Java 20 | `ghcr.io/donpedrotv/pterodactyl-images:java_20` |
-| Java 21 | `ghcr.io/donpedrotv/pterodactyl-images:java_21` |
-| Java 22 | `ghcr.io/donpedrotv/pterodactyl-images:java_22` |
-
-### ☕ Java GraalVM [AMD64/ARM64]
+### Java GraalVM (AMD64/ARM64)
 
 > **NOTE**: Java 8 is AMD64 only due to lack of support from upstream.
 
@@ -122,7 +115,16 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
 | Java 24 GraalVM JDK | `ghcr.io/donpedrotv/pterodactyl-images:java_24_graalvm` |
 | Java 25 GraalVM JDK | `ghcr.io/donpedrotv/pterodactyl-images:java_25_graalvm` |
 
-### ☕ Java Liberica [AMD64/ARM64]
+### Java Dragonwell (AMD64/ARM64)
+
+| Version | Image Tag |
+|---------|-----------|
+| Java 8 | `ghcr.io/donpedrotv/pterodactyl-images:java_8_dragonwell` |
+| Java 11 | `ghcr.io/donpedrotv/pterodactyl-images:java_11_dragonwell` |
+| Java 17 | `ghcr.io/donpedrotv/pterodactyl-images:java_17_dragonwell` |
+| Java 21 | `ghcr.io/donpedrotv/pterodactyl-images:java_21_dragonwell` |
+
+### Java Liberica (AMD64/ARM64)
 
 | Version | Image Tag |
 |---------|-----------|
@@ -132,7 +134,7 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
 | Java 21 | `ghcr.io/donpedrotv/pterodactyl-images:java_21_liberica` |
 | Java 22 | `ghcr.io/donpedrotv/pterodactyl-images:java_22_liberica` |
 
-### ☕ Java OpenJ9 [AMD64]
+### Java OpenJ9 (AMD64)
 
 | Version | Image Tag |
 |---------|-----------|
@@ -144,7 +146,7 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
 | Java 20 | `ghcr.io/donpedrotv/pterodactyl-images:java_20_openj9` |
 | Java 21 | `ghcr.io/donpedrotv/pterodactyl-images:java_21_openj9` |
 
-### ☕ Java Shenandoah [AMD64/ARM64]
+### Java Shenandoah (AMD64/ARM64)
 
 These are [Shipilev experimental builds](https://builds.shipilev.net/). If you're looking for Shenandoah GC, it is also by default shipped with at least Azul, Corretto, and Temurin images starting with Java 11.
 
@@ -155,7 +157,7 @@ These are [Shipilev experimental builds](https://builds.shipilev.net/). If you'r
 | Java 17 | `ghcr.io/donpedrotv/pterodactyl-images:java_17_shenandoah` |
 | Java 21 | `ghcr.io/donpedrotv/pterodactyl-images:java_21_shenandoah` |
 
-## 🟢 Node.js [AMD64/ARM64]
+## Node.js (AMD64/ARM64)
 
 | Version | Image Tag |
 |---------|-----------|
@@ -170,7 +172,7 @@ These are [Shipilev experimental builds](https://builds.shipilev.net/). If you'r
 | Node.js 21 | `ghcr.io/donpedrotv/pterodactyl-images:nodejs_21` |
 | Node.js 22 | `ghcr.io/donpedrotv/pterodactyl-images:nodejs_22` |
 
-## 🐍 Python [AMD64/ARM64]
+## Python (AMD64/ARM64)
 
 | Version | Image Tag |
 |---------|-----------|
@@ -184,9 +186,9 @@ These are [Shipilev experimental builds](https://builds.shipilev.net/). If you'r
 | Python 3.12 | `ghcr.io/donpedrotv/pterodactyl-images:python_3.12` |
 | Python 3.13-rc | `ghcr.io/donpedrotv/pterodactyl-images:python_3.13-rc` |
 
-## 🎮 Game Specific
+## Game Specific
 
-### 🔧 Sourcemod [AMD64]
+### Sourcemod (AMD64)
 
 | Image | Tag |
 |-------|-----|
