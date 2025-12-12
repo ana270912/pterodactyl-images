@@ -1,7 +1,7 @@
 FROM        amazoncorretto:19
 
 LABEL       author="Softwarenoob" maintainer="admin@softwarenoob.com"
-LABEL       org.opencontainers.image.source="https://github.com/Software-Noob/pterodactyl-images"
+LABEL       org.opencontainers.image.source="https://github.com/DonPedroTV/pterodactyl-images"
 LABEL       org.opencontainers.image.licenses="MIT"
 
 RUN         yum upgrade -y \
