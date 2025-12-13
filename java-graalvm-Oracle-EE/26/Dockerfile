@@ -1,4 +1,4 @@
-FROM --platform=$TARGETOS/$TARGETARCH rockylinux:9-minimal
+FROM --platform=$TARGETOS/$TARGETARCH debian:bookworm-slim
 
 LABEL author="DonPedroTV"
 LABEL maintainer="admin@donpedrotv.com"
@@ -22,18 +22,11 @@ RUN microdnf install -y \
     shadow-utils \
     && microdnf clean all
 
-ARG TARGETARCH=amd64
 
-RUN set -eux; \
-  case "${TARGETARCH}" in \
-    amd64)  URL="https://github.com/graalvm/oracle-graalvm-ea-builds/releases/download/jdk-25e1-25.0.1-ea.08/graalvm-jdk-25e1-25.0.1-ea.08_linux-x64_bin.tar.gz" ;; \
-    arm64)  URL="https://github.com/graalvm/oracle-graalvm-ea-builds/releases/download/jdk-25e1-25.0.1-ea.08/graalvm-jdk-25e1-25.0.1-ea.08_linux-aarch64_bin.tar.gz" ;; \
-    *) echo "Unsupported TARGETARCH: ${TARGETARCH}" >&2; exit 1 ;; \
-  esac; \
-  wget -O /tmp/graalvm.tar.gz "$URL"; \
-  mkdir -p /opt/graalvm; \
-  tar -xzf /tmp/graalvm.tar.gz --strip-components=1 -C /opt/graalvm; \
-  rm -f /tmp/graalvm.tar.gz
+RUN wget -O /tmp/graalvm.tar.gz https://github.com/graalvm/oracle-graalvm-ea-builds/releases/download/jdk-26.0.0-ea.06/graalvm-jdk-26.0.0-ea.06_linux-x64_bin.tar.gz \
+    && mkdir -p /opt/graalvm \
+    && tar -xzf /tmp/graalvm.tar.gz --strip-components=1 -C /opt/graalvm \
+    && rm /tmp/graalvm.tar.gz
 
 RUN useradd -m -d /home/container container
 
