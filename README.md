@@ -181,6 +181,8 @@ These are [Shipilev experimental builds](https://builds.shipilev.net/). If you'r
 | Node.js 20 | `ghcr.io/donpedrotv/pterodactyl-images:nodejs_20` |
 | Node.js 21 | `ghcr.io/donpedrotv/pterodactyl-images:nodejs_21` |
 | Node.js 22 | `ghcr.io/donpedrotv/pterodactyl-images:nodejs_22` |
+| Node.js 23 | `ghcr.io/donpedrotv/pterodactyl-images:nodejs_23` |
+| Node.js 24 | `ghcr.io/donpedrotv/pterodactyl-images:nodejs_24` |
 
 ## Python (AMD64/ARM64)
 
