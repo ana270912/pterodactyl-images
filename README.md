@@ -194,7 +194,10 @@ These are [Shipilev experimental builds](https://builds.shipilev.net/). If you'r
 | Python 3.10 | `ghcr.io/donpedrotv/pterodactyl-images:python_3.10` |
 | Python 3.11 | `ghcr.io/donpedrotv/pterodactyl-images:python_3.11` |
 | Python 3.12 | `ghcr.io/donpedrotv/pterodactyl-images:python_3.12` |
-| Python 3.13-rc | `ghcr.io/donpedrotv/pterodactyl-images:python_3.13-rc` |
+| Python 3.13 | `ghcr.io/donpedrotv/pterodactyl-images:python_3.13` |
+| Python 3.14 | `ghcr.io/donpedrotv/pterodactyl-images:python_3.14` |
+| Python 3.15 | `ghcr.io/donpedrotv/pterodactyl-images:python_3.15` |
+
 
 ## Game Specific
 
