@@ -166,6 +166,7 @@ These are [Shipilev experimental builds](https://builds.shipilev.net/). If you'r
 | Java 11 | `ghcr.io/donpedrotv/pterodactyl-images:java_11_shenandoah` |
 | Java 17 | `ghcr.io/donpedrotv/pterodactyl-images:java_17_shenandoah` |
 | Java 21 | `ghcr.io/donpedrotv/pterodactyl-images:java_21_shenandoah` |
+| Java 25 | `ghcr.io/donpedrotv/pterodactyl-images:java_25_shenandoah` |
 
 ## Node.js (AMD64/ARM64)
 
